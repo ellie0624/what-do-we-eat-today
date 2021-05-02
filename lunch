@@ -1,0 +1,10 @@
+import random
+lunch_list = {"pizza": ['Domino', 'Pizza Hut', 'Pizza Fella', 'Culto', 'Papa Ginos'],
+             "Asian food": ['Bulgogi', 'Blue Sakura', 'Red Chilli', 'Home', 'Yokohama', 'Thai Edge'],
+              "burger": ['Mc Donald', 'Taco Bell', 'Burger King'],
+             "fried chicken":['KFC', 'Mc Donald']}
+lunch_dish = list(lunch_list.keys())
+lunch_choice = random.choice(lunch_dish)
+lunch_restaurant = random.choice(lunch_list[lunch_choice])
+print(lunch_choice)
+print(lunch_restaurant)
